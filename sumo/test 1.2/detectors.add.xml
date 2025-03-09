@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<additional>
+
+    <!-- E3 Detector at Junction J0 -->
+    <e3Detector id="det_J0" file="traffic_volume.xml" freq="60">
+        <detEntry lane="E5_0" pos="5"/>  <!-- Vehicles coming from J3 -->
+        <detEntry lane="E4_0" pos="5"/>  <!-- Vehicles coming from J4 -->
+        <detEntry lane="-E0_0" pos="5"/> <!-- Vehicles coming from J1 -->
+        <detExit lane="-E5_0" pos="5"/>
+        <detExit lane="-E4_0" pos="5"/>
+        <detExit lane="E0_0" pos="5"/>
+    </e3Detector>
+
+    <!-- E3 Detector at Junction J3 -->
+    <e3Detector id="det_J3" file="traffic_volume.xml" freq="60">
+        <detEntry lane="-E5_0" pos="5"/> <!-- Vehicles coming from J0 -->
+        <detEntry lane="E2_0" pos="5"/>  <!-- Vehicles coming from J1 -->
+        <detEntry lane="-E6_0" pos="5"/> <!-- Vehicles coming from J2 -->
+        <detExit lane="E5_0" pos="5"/>
+        <detExit lane="-E2_0" pos="5"/>
+        <detExit lane="E6_0" pos="5"/>
+    </e3Detector>
+
+    <!-- E3 Detector at Junction J1 -->
+    <e3Detector id="det_J1" file="traffic_volume.xml" freq="60">
+        <detEntry lane="E0_0" pos="5"/>  <!-- Vehicles coming from J0 -->
+        <detEntry lane="-E2_0" pos="5"/> <!-- Vehicles coming from J3 -->
+        <detEntry lane="-E1_0" pos="5"/> <!-- Vehicles coming from J2 -->
+        <detEntry lane="-E3_0" pos="5"/> <!-- Vehicles coming from J4 -->
+        <detExit lane="-E0_0" pos="5"/>
+        <detExit lane="E2_0" pos="5"/>
+        <detExit lane="E1_0" pos="5"/>
+        <detExit lane="E3_0" pos="5"/>
+    </e3Detector>
+
+    <!-- E3 Detector at Junction J4 -->
+    <e3Detector id="det_J4" file="traffic_volume.xml" freq="60">
+        <detEntry lane="-E4_0" pos="5"/> <!-- Vehicles coming from J0 -->
+        <detEntry lane="E3_0" pos="5"/>  <!-- Vehicles coming from J1 -->
+        <detEntry lane="E7_0" pos="5"/>  <!-- Vehicles coming from J2 -->
+        <detExit lane="E4_0" pos="5"/>
+        <detExit lane="-E3_0" pos="5"/>
+        <detExit lane="-E7_0" pos="5"/>
+    </e3Detector>
+
+    <!-- E3 Detector at Junction J2 -->
+    <e3Detector id="det_J2" file="traffic_volume.xml" freq="60">
+        <detEntry lane="E6_0" pos="5"/>  <!-- Vehicles coming from J3 -->
+        <detEntry lane="E1_0" pos="5"/>  <!-- Vehicles coming from J1 -->
+        <detEntry lane="-E7_0" pos="5"/> <!-- Vehicles coming from J4 -->
+        <detExit lane="-E6_0" pos="5"/>
+        <detExit lane="-E1_0" pos="5"/>
+        <detExit lane="E7_0" pos="5"/>
+    </e3Detector>
+
+</additional>

@@ -1,0 +1,5 @@
+<nodes>
+	<node id="A" x="0" y="0"/>
+	<node id="B" x="100" y="0"/>
+	<node id="C" x="50" y="-86.60"/>
+</nodes>
