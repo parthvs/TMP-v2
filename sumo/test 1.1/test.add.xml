@@ -1,0 +1,6 @@
+<additional>
+    <inductionLoop id="det_A" lane="AB_0" pos="50" freq="60" file="detector_output.xml"/>
+    <inductionLoop id="det_B" lane="BC_0" pos="50" freq="60" file="detector_output.xml"/>
+    <inductionLoop id="det_C" lane="CD_0" pos="50" freq="60" file="detector_output.xml"/>
+    <inductionLoop id="det_D" lane="DA_0" pos="50" freq="60" file="detector_output.xml"/>
+</additional>

@@ -1,0 +1,11 @@
+<configuration>
+    <input>
+        <net-file value="freedom_park.net.xml"/>
+        <route-files value="freedom_park.rou.xml"/>
+	
+    </input>
+    <time>
+        <begin value="0"/>
+        <end value="86400"/>
+    </time>
+</configuration>

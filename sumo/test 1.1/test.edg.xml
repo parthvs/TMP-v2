@@ -1,0 +1,14 @@
+<edges>
+    <edge id="AB" from="A" to="B"/>
+    <edge id="BC" from="B" to="C"/>
+    <edge id="CD" from="C" to="D"/>
+    <edge id="DA" from="D" to="A"/>
+
+    
+    <edge id="BA" from="B" to="A"/>
+    <edge id="CB" from="C" to="B"/>
+    <edge id="DC" from="D" to="C"/>
+    <edge id="AD" from="A" to="D"/>
+
+
+</edges>

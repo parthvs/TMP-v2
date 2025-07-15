@@ -1,0 +1,10 @@
+<edges>
+    <edge id="AB" from="A" to="B"/>
+    <edge id="AC" from="A" to="C"/>
+    <edge id="CA" from="C" to="A"/>
+    <edge id="CB" from="C" to="B"/>
+    <edge id="BA" from="B" to="A"/>
+    <edge id="BC" from="B" to="C"/>
+
+
+</edges>

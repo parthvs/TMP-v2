@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodes version="1.20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/nodes_file.xsd">
+    
+    <node id="J0" x="-76.4" y="403.5" type="traffic_light"/>
+    <node id="J1" x="-77.7" y="-110.3" type="traffic_light"/>
+    <node id="J2" x="-78.8" y="-621.6" type="traffic_light"/>
+    <node id="J3" x="-607.3" y="-110.8" type="traffic_light"/>
+    <node id="J4" x="455.1" y="-110.1" type="traffic_light"/>
+</nodes>

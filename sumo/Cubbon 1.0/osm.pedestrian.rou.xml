@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-04-22 13:44:09.051213 by osmWebWizard.py v1_22_0+0002-63e50f52594
+<configuration>
+    <net-file value="C:\Users\USER\projects\TMPv2\sumo\MAP FILTERING\2025-04-22-13-43-52\osm.net.xml.gz"/>
+    <output-trip-file value="C:\Users\USER\projects\TMPv2\sumo\MAP FILTERING\2025-04-22-13-43-52\osm.pedestrian.trips.xml"/>
+    <route-file value="C:\Users\USER\projects\TMPv2\sumo\MAP FILTERING\2025-04-22-13-43-52\osm.pedestrian.rou.xml"/>
+    <pedestrians value="True"/>
+    <prefix value="ped"/>
+    <vehicle-class value="pedestrian"/>
+    <fringe-factor value="1"/>
+    <max-distance value="2000.0"/>
+    <insertion-density value="10.0"/>
+</configuration>
+-->
+
+<!-- generated on 2025-04-22 13:44:08 by Eclipse SUMO duarouter Version 1.22.0
+<duarouterConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="C:\Users\USER\projects\TMPv2\sumo\MAP FILTERING\2025-04-22-13-43-52\osm.net.xml.gz"/>
+        <route-files value="C:\Users\USER\projects\TMPv2\sumo\MAP FILTERING\2025-04-22-13-43-52\osm.pedestrian.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="C:\Users\USER\projects\TMPv2\sumo\MAP FILTERING\2025-04-22-13-43-52\osm.pedestrian.rou.xml"/>
+        <alternatives-output value="NUL"/>
+    </output>
+
+    <time>
+        <begin value="0.0"/>
+        <end value="3600.0"/>
+    </time>
+
+    <report>
+        <no-warnings value="true"/>
+        <ignore-errors value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</duarouterConfiguration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="ped_pedestrian" vClass="pedestrian"/>
+    <person id="ped0" type="ped_pedestrian" depart="0.00">
+        <walk edges="36882310#4 36882310#5 508197007#0 1109911787#0 1148155466#0 23029710#0 -112657835#1"/>
+    </person>
+    <person id="ped1" type="ped_pedestrian" depart="14.62">
+        <walk edges="112657837#0 1148155464 1373652341 1109911786#0"/>
+    </person>
+    <person id="ped2" type="ped_pedestrian" depart="29.25">
+        <walk edges="369295564#3 508197004 399001081 36882310#5 508197007#0 1109911787#0 1109911786#0 36882311#0"/>
+    </person>
+    <person id="ped5" type="ped_pedestrian" depart="73.12">
+        <walk edges="-112657835#1 23029710#0 1148155466#0 1109911786#0 36882311#0 36882311#7 1091198032#3 1091198032#4"/>
+    </person>
+    <person id="ped9" type="ped_pedestrian" depart="131.62">
+        <walk edges="1049316087#0"/>
+    </person>
+    <person id="ped11" type="ped_pedestrian" depart="160.87">
+        <walk edges="46728546#0 369295564#3"/>
+    </person>
+    <person id="ped14" type="ped_pedestrian" depart="204.75">
+        <walk edges="1109911786#0 1373652341 1148155464"/>
+    </person>
+    <person id="ped20" type="ped_pedestrian" depart="292.49">
+        <walk edges="1091198032#3 36882311#7 399001083#0 52032471#0 508197004 369295564#3"/>
+    </person>
+    <person id="ped24" type="ped_pedestrian" depart="350.99">
+        <walk edges="1109911786#0 1148155466#0 23029710#0 1364673359 -112657837#1"/>
+    </person>
+    <person id="ped27" type="ped_pedestrian" depart="394.87">
+        <walk edges="36882310#5 508197007#0 1109911787#0 1148155466#0 23029710#0 1364673359"/>
+    </person>
+    <person id="ped28" type="ped_pedestrian" depart="409.49">
+        <walk edges="52032471#0 399001081 36882310#5 508197007#0 1109911787#0 1148155466#0 23029710#0"/>
+    </person>
+    <person id="ped29" type="ped_pedestrian" depart="424.12">
+        <walk edges="112657837#0 1364673359 112657835#0"/>
+    </person>
+    <person id="ped31" type="ped_pedestrian" depart="453.37">
+        <walk edges="1364673359 23029710#0 1148155466#0 1109911786#0"/>
+    </person>
+    <person id="ped40" type="ped_pedestrian" depart="584.99">
+        <walk edges="112657837#0 1148155464 1373652341 1109911787#0 508197007#0 36882310#5 36882310#4"/>
+    </person>
+    <person id="ped43" type="ped_pedestrian" depart="628.86">
+        <walk edges="508197005#0 508197005#2 46728546#0 369295564#3 508197004 399001081 36882310#5 508197007#0 1109911787#0 1373652341 1148155464 112657837#0"/>
+    </person>
+    <person id="ped45" type="ped_pedestrian" depart="658.11">
+        <walk edges="52032471#0 508197004 369295564#3 46728546#0 508197005#2 508197005#0"/>
+    </person>
+    <person id="ped46" type="ped_pedestrian" depart="672.74">
+        <walk edges="1148155466#0 1109911787#0 508197007#0 36882310#5 36882310#4"/>
+    </person>
+    <person id="ped53" type="ped_pedestrian" depart="775.11">
+        <walk edges="-45308260#3 45308260#1 1148155464 1373652341 1109911787#0 508197007#0 36882310#5 399001081"/>
+    </person>
+    <person id="ped54" type="ped_pedestrian" depart="789.74">
+        <walk edges="399001081 52032471#0 1091198029#1 1091198029#0"/>
+    </person>
+    <person id="ped56" type="ped_pedestrian" depart="818.99">
+        <walk edges="112657837#0 1148155464 1373652341 1109911787#0 508197007#0 36882310#5 399001081 508197004 369295564#3 46728546#0 508197005#2 508197005#0"/>
+    </person>
+    <person id="ped60" type="ped_pedestrian" depart="877.48">
+        <walk edges="1091198028#0 1091198029#1 36882310#4 36882310#5 508197007#0 1109911787#0 1109911786#0"/>
+    </person>
+    <person id="ped61" type="ped_pedestrian" depart="892.11">
+        <walk edges="1109911786#0"/>
+    </person>
+    <person id="ped62" type="ped_pedestrian" depart="906.73">
+        <walk edges="-45308260#3 45308260#1 1148155464 1373652341 1109911787#0 508197007#0 36882310#5 36882310#4"/>
+    </person>
+    <person id="ped63" type="ped_pedestrian" depart="921.36">
+        <walk edges="1109911786#0 1109911787#0 508197007#0"/>
+    </person>
+    <person id="ped64" type="ped_pedestrian" depart="935.98">
+        <walk edges="508197004 399001081 36882310#5 508197007#0 1109911787#0 1373652341 1148155464 45308260#1 -45308260#3"/>
+    </person>
+    <person id="ped65" type="ped_pedestrian" depart="950.61">
+        <walk edges="1109911787#0 1109911786#0 36882311#0"/>
+    </person>
+    <person id="ped66" type="ped_pedestrian" depart="965.23">
+        <walk edges="1091198034#0 1091198032#3 1091198032#4 1091198030 1091198028#0 1091198029#0"/>
+    </person>
+    <person id="ped68" type="ped_pedestrian" depart="994.48">
+        <walk edges="46728546#0 369295564#3 508197004 52032471#0 399001083#0 36882311#7 1091198032#3 1091198032#4"/>
+    </person>
+    <person id="ped71" type="ped_pedestrian" depart="1038.36">
+        <walk edges="369295564#3 508197004 399001081 36882310#5 508197007#0 1109911787#0 1109911786#0 36882311#0"/>
+    </person>
+    <person id="ped73" type="ped_pedestrian" depart="1067.61">
+        <walk edges="508197005#0 508197005#2 46728546#0 369295564#3 508197004 399001081 36882310#5 508197007#0 1109911787#0 1148155466#0 23029710#0 112657835#0"/>
+    </person>
+    <person id="ped74" type="ped_pedestrian" depart="1082.23">
+        <walk edges="1091198032#4 1091198032#3 36882311#7 36882311#0 1109911786#0 1148155466#0 23029710#0"/>
+    </person>
+    <person id="ped79" type="ped_pedestrian" depart="1155.35">
+        <walk edges="508197004 52032471#0 399001083#0 36882311#7 1091198032#3 1091198032#4 1091198030"/>
+    </person>
+    <person id="ped82" type="ped_pedestrian" depart="1199.23">
+        <walk edges="112657837#0 1148155464 1373652341 1109911787#0 508197007#0 36882310#5 36882310#4 399001083#0"/>
+    </person>
+    <person id="ped84" type="ped_pedestrian" depart="1228.48">
+        <walk edges="1091198030 1091198032#4 1091198032#3 36882311#7 36882311#0 1109911786#0 1148155466#0"/>
+    </person>
+    <person id="ped88" type="ped_pedestrian" depart="1286.98">
+        <walk edges="1109911787#0 508197007#0 36882310#5 36882310#4 1091198029#1 1091198028#0"/>
+    </person>
+    <person id="ped89" type="ped_pedestrian" depart="1301.60">
+        <walk edges="508197005#2 46728546#0 369295564#3 508197004 399001081 36882310#5 508197007#0 1109911787#0 1148155466#0 23029710#0 112657835#0"/>
+    </person>
+    <person id="ped90" type="ped_pedestrian" depart="1316.23">
+        <walk edges="1091198034#0 36882311#7 399001083#0 52032471#0 508197004 369295564#3 369295564#1"/>
+    </person>
+    <person id="ped91" type="ped_pedestrian" depart="1330.85">
+        <walk edges="1109911787#0 1148155466#0 23029710#0 1364673359"/>
+    </person>
+    <person id="ped92" type="ped_pedestrian" depart="1345.48">
+        <walk edges="36882311#0 1109911786#0 1148155466#0"/>
+    </person>
+    <person id="ped93" type="ped_pedestrian" depart="1360.10">
+        <walk edges="-45308260#3 45308260#1 1364673359 23029710#0"/>
+    </person>
+    <person id="ped94" type="ped_pedestrian" depart="1374.73">
+        <walk edges="764406991#0"/>
+    </person>
+    <person id="ped95" type="ped_pedestrian" depart="1389.35">
+        <walk edges="-45308260#3 45308260#1 1148155464 1373652341 1109911786#0 36882311#0 36882311#7 1091198034#0"/>
+    </person>
+    <person id="ped96" type="ped_pedestrian" depart="1403.97">
+        <walk edges="508197005#2"/>
+    </person>
+    <person id="ped101" type="ped_pedestrian" depart="1477.10">
+        <walk edges="1091198029#0 1091198028#0"/>
+    </person>
+    <person id="ped104" type="ped_pedestrian" depart="1520.97">
+        <walk edges="369295564#1 369295564#3 508197004 52032471#0 399001083#0 36882311#7 1091198034#0"/>
+    </person>
+    <person id="ped105" type="ped_pedestrian" depart="1535.60">
+        <walk edges="36882310#4 36882310#5 508197007#0 1109911787#0 1373652341 1148155464 112657837#0"/>
+    </person>
+    <person id="ped110" type="ped_pedestrian" depart="1608.72">
+        <walk edges="36882310#4 36882310#5 508197007#0 1109911787#0 1373652341 1148155464 112657837#0"/>
+    </person>
+    <person id="ped112" type="ped_pedestrian" depart="1637.97">
+        <walk edges="-45308260#3 45308260#1 1148155464 1373652341 1109911787#0 508197007#0 36882310#5 399001081 508197004 369295564#3 46728546#0 508197005#2"/>
+    </person>
+    <person id="ped114" type="ped_pedestrian" depart="1667.22">
+        <walk edges="1091198029#1 1091198029#0"/>
+    </person>
+    <person id="ped116" type="ped_pedestrian" depart="1696.47">
+        <walk edges="45308260#1 1148155464 1373652341 1109911787#0 508197007#0 36882310#5 399001081 508197004"/>
+    </person>
+    <person id="ped117" type="ped_pedestrian" depart="1711.09">
+        <walk edges="508197007#0 36882310#5 36882310#4 399001083#0 36882311#7 1091198034#0"/>
+    </person>
+    <person id="ped119" type="ped_pedestrian" depart="1740.34">
+        <walk edges="399001083#0 52032471#0 508197004 369295564#3 46728546#0 508197005#2"/>
+    </person>
+    <person id="ped123" type="ped_pedestrian" depart="1798.84">
+        <walk edges="46728546#0 508197005#2"/>
+    </person>
+    <person id="ped124" type="ped_pedestrian" depart="1813.47">
+        <walk edges="-112657835#1 23029710#0 1148155466#0 1109911787#0 508197007#0 36882310#5 399001081 508197004 369295564#3"/>
+    </person>
+    <person id="ped126" type="ped_pedestrian" depart="1842.72">
+        <walk edges="46728546#0 508197005#2 508197005#0"/>
+    </person>
+    <person id="ped127" type="ped_pedestrian" depart="1857.34">
+        <walk edges="46728546#0 369295564#3 508197004 399001081 36882310#5 508197007#0 1109911787#0 1373652341 1148155464 112657837#0"/>
+    </person>
+    <person id="ped128" type="ped_pedestrian" depart="1871.97">
+        <walk edges="45308260#1 1148155464 1373652341 1109911787#0 508197007#0 36882310#5 36882310#4 1091198029#1 1091198028#0"/>
+    </person>
+    <person id="ped129" type="ped_pedestrian" depart="1886.59">
+        <walk edges="508197005#0 508197005#2 46728546#0 369295564#3 508197004"/>
+    </person>
+    <person id="ped131" type="ped_pedestrian" depart="1915.84">
+        <walk edges="23029710#0 1148155466#0"/>
+    </person>
+    <person id="ped132" type="ped_pedestrian" depart="1930.47">
+        <walk edges="45308260#1 1148155464 1373652341 1109911786#0"/>
+    </person>
+    <person id="ped133" type="ped_pedestrian" depart="1945.09">
+        <walk edges="-112657835#1 23029710#0 1148155466#0 1109911786#0 36882311#0 36882311#7 1091198032#3 1091198032#4"/>
+    </person>
+    <person id="ped134" type="ped_pedestrian" depart="1959.71">
+        <walk edges="1315881698#0 1091198034#0 36882311#7 399001083#0 52032471#0 508197004 369295564#3 46728546#0 508197005#2 508197005#0"/>
+    </person>
+    <person id="ped136" type="ped_pedestrian" depart="1988.96">
+        <walk edges="36882310#4 36882310#5 508197007#0 1109911787#0 1148155466#0 23029710#0 1364673359"/>
+    </person>
+    <person id="ped142" type="ped_pedestrian" depart="2076.71">
+        <walk edges="112657835#0 23029710#0 1148155466#0 1109911787#0 508197007#0 36882310#5 399001081 508197004 369295564#3 369295564#1"/>
+    </person>
+    <person id="ped146" type="ped_pedestrian" depart="2135.21">
+        <walk edges="36882311#0 36882311#7 1091198034#0 1315881698#0"/>
+    </person>
+    <person id="ped148" type="ped_pedestrian" depart="2164.46">
+        <walk edges="369295564#1 369295564#3 508197004 399001081 36882310#5 508197007#0 1109911787#0 1148155466#0"/>
+    </person>
+    <person id="ped150" type="ped_pedestrian" depart="2193.71">
+        <walk edges="1373652341 1148155466#0"/>
+    </person>
+    <person id="ped158" type="ped_pedestrian" depart="2310.71">
+        <walk edges="45308260#1 1148155464 1373652341 1109911786#0 36882311#0 36882311#7 1091198032#3"/>
+    </person>
+    <person id="ped160" type="ped_pedestrian" depart="2339.96">
+        <walk edges="36882310#4 399001083#0 36882311#7 1091198034#0 1315881698#0"/>
+    </person>
+    <person id="ped162" type="ped_pedestrian" depart="2369.21">
+        <walk edges="36882311#0 1109911786#0"/>
+    </person>
+    <person id="ped163" type="ped_pedestrian" depart="2383.83">
+        <walk edges="1091198032#4 1091198032#3 36882311#7 36882311#0 1109911786#0 1148155466#0 23029710#0 -112657835#1"/>
+    </person>
+    <person id="ped165" type="ped_pedestrian" depart="2413.08">
+        <walk edges="508197004 399001081 36882310#5 508197007#0 1109911787#0 1373652341 1148155464 45308260#1 -45308260#3"/>
+    </person>
+    <person id="ped173" type="ped_pedestrian" depart="2530.08">
+        <walk edges="112657835#0 23029710#0 1148155466#0 1109911787#0 508197007#0 36882310#5 399001081 508197004"/>
+    </person>
+    <person id="ped174" type="ped_pedestrian" depart="2544.70">
+        <walk edges="23029710#0 1148155466#0 1109911787#0 508197007#0 36882310#5 399001081 508197004 369295564#3 46728546#0"/>
+    </person>
+    <person id="ped182" type="ped_pedestrian" depart="2661.70">
+        <walk edges="112657835#0 23029710#0 1148155466#0 1109911787#0 508197007#0 36882310#5 36882310#4"/>
+    </person>
+    <person id="ped190" type="ped_pedestrian" depart="2778.70">
+        <walk edges="508197004 399001081"/>
+    </person>
+    <person id="ped191" type="ped_pedestrian" depart="2793.32">
+        <walk edges="1321561533 37110390"/>
+    </person>
+    <person id="ped194" type="ped_pedestrian" depart="2837.20">
+        <walk edges="1109911786#0"/>
+    </person>
+    <person id="ped196" type="ped_pedestrian" depart="2866.45">
+        <walk edges="1315881698#0 1091198034#0 36882311#7"/>
+    </person>
+    <person id="ped197" type="ped_pedestrian" depart="2881.07">
+        <walk edges="1373652341 1109911786#0 36882311#0 36882311#7 1091198032#3 1091198032#4 1091198030"/>
+    </person>
+    <person id="ped201" type="ped_pedestrian" depart="2939.57">
+        <walk edges="-112657835#1 23029710#0 1148155466#0 1109911787#0 508197007#0 36882310#5 36882310#4"/>
+    </person>
+    <person id="ped203" type="ped_pedestrian" depart="2968.82">
+        <walk edges="1091198034#0 1315881698#0"/>
+    </person>
+    <person id="ped208" type="ped_pedestrian" depart="3041.94">
+        <walk edges="36882310#5 36882310#4 399001083#0"/>
+    </person>
+    <person id="ped209" type="ped_pedestrian" depart="3056.57">
+        <walk edges="36882310#5 399001081"/>
+    </person>
+    <person id="ped210" type="ped_pedestrian" depart="3071.19">
+        <walk edges="-112657835#1 23029710#0 1148155466#0 1109911787#0 508197007#0 36882310#5 36882310#4 1091198029#1"/>
+    </person>
+    <person id="ped211" type="ped_pedestrian" depart="3085.82">
+        <walk edges="1091198029#0 1091198029#1 36882310#4 36882310#5 508197007#0 1109911787#0 1109911786#0 36882311#0"/>
+    </person>
+    <person id="ped215" type="ped_pedestrian" depart="3144.32">
+        <walk edges="1091198028#0 1091198029#1 36882310#4 36882310#5 508197007#0 1109911787#0 1148155466#0 23029710#0 -112657835#1"/>
+    </person>
+    <person id="ped217" type="ped_pedestrian" depart="3173.57">
+        <walk edges="369295564#1 369295564#3 508197004 399001081 36882310#5 508197007#0 1109911787#0 1373652341 1148155464 45308260#1 -45308260#3"/>
+    </person>
+    <person id="ped228" type="ped_pedestrian" depart="3334.44">
+        <walk edges="112657837#0 1148155464 1373652341 1109911787#0 508197007#0 36882310#5 399001081 508197004 369295564#3 46728546#0"/>
+    </person>
+    <person id="ped231" type="ped_pedestrian" depart="3378.31">
+        <walk edges="112657837#0 1148155464 1373652341 1109911787#0 508197007#0 36882310#5 399001081 508197004"/>
+    </person>
+    <person id="ped233" type="ped_pedestrian" depart="3407.56">
+        <walk edges="508197005#2 46728546#0 369295564#3 508197004 399001081 36882310#5 508197007#0 1109911787#0"/>
+    </person>
+    <person id="ped236" type="ped_pedestrian" depart="3451.44">
+        <walk edges="508197004 52032471#0 399001083#0 36882311#7 1091198032#3"/>
+    </person>
+    <person id="ped237" type="ped_pedestrian" depart="3466.06">
+        <walk edges="1091198034#0 36882311#7 36882311#0 1109911786#0 1373652341 1148155464 45308260#1"/>
+    </person>
+    <person id="ped241" type="ped_pedestrian" depart="3524.56">
+        <walk edges="36882311#7 399001083#0 36882310#4"/>
+    </person>
+    <person id="ped244" type="ped_pedestrian" depart="3568.44">
+        <walk edges="36882311#7 36882311#0 1109911786#0 1148155466#0"/>
+    </person>
+</routes>
