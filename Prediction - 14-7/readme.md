@@ -2,6 +2,7 @@
 
 # Traffic Flow Prediction Using Time-Series Modeling
 
+<img width="440" height="336" alt="Junction Highlighting - Labelled" src="https://github.com/user-attachments/assets/24ad1ac6-06ff-4635-8b01-ee17a34f71b0" />
 
 
 ## Objective
